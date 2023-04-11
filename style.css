@@ -1,0 +1,174 @@
+body {
+	background: white;
+	color: white;
+	font-family: "Lora", serif;
+	margin: 30px auto;
+	max-width: 1000px;
+	text-align: center;
+}
+
+input {
+	background-color: rgba(59, 45, 122, 0.25);
+	border: 1px solid white;
+	border-radius: 2px;
+	font-size: 14px;
+	padding: 5px 10px;
+	width: 250px;
+}
+
+h1,
+small {
+	font-weight: 300;
+}
+
+h1 {
+	display: inline;
+	font-size: 80px;
+}
+
+h2 {
+	display: inline;
+	font-size: 25px;
+	font-weight: 400;
+	margin-left: 15px;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+small {
+	font-size: 15px;
+}
+
+a {
+	color: #61ecec;
+	text-decoration: none;
+	transition: all 150ms ease-in;
+}
+
+a:hover {
+	color: white;
+	cursor: pointer;
+}
+
+ul {
+	list-style-type: none;
+	font-size: 15px;
+	line-height: 20px;
+	padding: 0;
+}
+
+p {
+	font-size: 15px;
+	line-height: 11px;
+	margin-bottom: 12px;
+	text-align: left;
+}
+
+footer {
+	color: #30cfd0;
+	font-size: 11px;
+	width: 400px;
+}
+
+footer a {
+	color: #330867;
+}
+
+footer a:hover {
+	color: #61ecec;
+}
+
+.weather-app-wrapper {
+	margin: 0 auto;
+	width: 400px;
+}
+
+.weather-app {
+	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+	margin-bottom: 15px;
+	margin-top: 30px;
+	padding: 45px 30px;
+}
+
+.summary-current-weather {
+	color: white;
+	font-family: "Quicksand", sans-serif;
+	margin-top: 50px;
+}
+
+::placeholder {
+	color: white;
+}
+
+.fa-search,
+.fa-location-arrow {
+	color: white;
+}
+
+.current-weather-temp,
+.current-weather-units {
+	display: inline;
+}
+
+.current-weather-units {
+	position: relative;
+	top: -45px;
+}
+
+.current-details {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.weather-forecast {
+	text-align: center;
+}
+
+.weather-forecast-date,
+.weather-forecast-temp-min {
+	opacity: 0.6;
+}
+
+.weather-forecast-date {
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.weather-forecast-temp {
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+#city-text-input {
+	color: white;
+}
+
+#search-button,
+#current-location {
+	background-color: transparent;
+	border: none;
+}
+
+#main-icon {
+	width: 65px;
+}
+
+#temp-units .active {
+	color: white;
+	cursor: default;
+}
+
+#city {
+	font-family: "Quicksand", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+#humidity,
+#wind {
+	font-weight: 600;
+	opacity: 0.6;
+}
